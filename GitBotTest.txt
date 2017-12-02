@@ -1,3 +1,0 @@
-This is a file for the purposes of getting Git Buddy to work properly.
-
-Test 3
