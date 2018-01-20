@@ -319,7 +319,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 970368925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.19047356, y: 1.3893151, z: -0.49471283}
+  m_LocalPosition: {x: -0.2, y: 1.3893151, z: -0.49471283}
   m_LocalScale: {x: 2, y: 1, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -334,15 +334,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: af975867c95842d488de55ea1fec92e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.9897449
+      value: -9.72
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af975867c95842d488de55ea1fec92e2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.48
+      value: -16.83
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af975867c95842d488de55ea1fec92e2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.71
+      value: -7.34
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af975867c95842d488de55ea1fec92e2, type: 3}
       propertyPath: m_LocalRotation.x
@@ -432,3 +432,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1246640631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1246640633}
+  - component: {fileID: 1246640632}
+  m_Layer: 0
+  m_Name: nd4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1246640632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246640631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7894f5b04f69814d9fe0639f6b885a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  count: 4
+  die: {fileID: 139074780}
+--- !u!4 &1246640633
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246640631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9619111, y: 0.46059275, z: -0.42403698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
