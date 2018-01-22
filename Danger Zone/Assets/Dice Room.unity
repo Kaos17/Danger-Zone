@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
+  node: {fileID: 171404755}
 --- !u!23 &171404757
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -385,7 +386,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 745860498}
   m_LocalRotation: {x: 0.3947205, y: -0, z: -0, w: 0.9188013}
-  m_LocalPosition: {x: 0, y: 8, z: -8.41}
+  m_LocalPosition: {x: 36.51, y: 8, z: -8.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
