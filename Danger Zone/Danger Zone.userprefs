@@ -1,6 +1,11 @@
-﻿<Properties StartupItem="Danger Zone.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScreenChanger.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ScreenChanger.cs" Line="53" Column="6" />
+      <File FileName="Assets\Scripts\ShipMove.cs" Line="18" Column="68" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
