@@ -15,8 +15,12 @@ public class ShipMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetMouseButtonDown(0)){
-			this.StartCoroutine(SmoothMove(node.transform.position, 0.02f));
+			//this.StartCoroutine(SmoothMove(node.transform.position, 0.02f));
 		}
+	}
+
+	void OnMouseDown(){
+		this.StartCoroutine (SmoothMove (node.transform.position, 0.02f));
 	}
 	
 	IEnumerator SmoothMove(Vector3 target, float delta)

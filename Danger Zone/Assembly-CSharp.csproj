@@ -51,7 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Attach.cs" />
      <Compile Include="Assets\Scripts\BlimpSlots.cs" />
+     <Compile Include="Assets\Scripts\Extend.cs" />
+     <Compile Include="Assets\Scripts\Insert.cs" />
      <Compile Include="Assets\Scripts\Roller.cs" />
      <Compile Include="Assets\Scripts\ScreenChanger.cs" />
      <Compile Include="Assets\Scripts\ShipMove.cs" />
