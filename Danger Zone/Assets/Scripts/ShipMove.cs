@@ -6,6 +6,7 @@ public class ShipMove : MonoBehaviour {
 	
 	public GameObject ship;
 	public GameObject node;
+	Vector3 dest;
 
 	// Use this for initialization
 	void Start () {
@@ -15,8 +16,14 @@ public class ShipMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetMouseButtonDown(0)){
-			this.StartCoroutine(SmoothMove(node.transform.position, 0.02f));
+			//this.StartCoroutine(SmoothMove(node.transform.position, 0.02f));
 		}
+	}
+
+	void OnMouseDown(){
+		dest = node.transform.position;
+		dest.y += 3;
+		this.StartCoroutine (SmoothMove (dest, 0.02f));
 	}
 	
 	IEnumerator SmoothMove(Vector3 target, float delta)
