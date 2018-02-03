@@ -1,0 +1,96 @@
+As your dirigible chugs along over the desert, the wind begins to beat 
+harder about you. Looking out to the desert, you see a massive wall of 
+sand stretching across the horizon. The grimoire you brought with you 
+has warned about massive sandstorms caused by the rampant magic in the 
+area, but you never thought that you’d see one up close. There are 
+flashes of lightning in the sandstorm, and the compass spins wildly as 
+the storm grows closer. There is a small canyon that you could land in 
+and attempt to weather the storm. Alternatively you could attempt to 
+pass through the storm or try and fly around the outside of the storm.
+
+=========Next========
+//On this, there are your three companions, each with a word bubble over
+ their heads as they give their opinion. You can click on them to hear 
+ in detail what they think about this.
+ 
+Jeric- "To retreat is dishonor."
+Harold- "I can pull us along the outskirts."
+Elaine- "The storm wants to kill us; the canyon does not."
+
+Jeric clicked on- "Strength is found in conquering weakness. You see 
+ that brewing wall of death? Now imagine pushing through it and living 
+ to tell the tale! THAT is how we improve. Tear down the walls you fear 
+ and what’s left to be afraid of? And if we go down, may it be with 
+ thunder and lightning!! If that’s what it takes to end this journey, 
+ then it is truly worthy of finishing us.”
+ 
+Harold clicked on- “We’d best steer around the outskirts. Sure, maybe we
+ can sit tight in a canyon, but then we’re just waiting for a disaster 
+ to break us in half, not to mention the fuel it’ll cost to bring us 
+ airborne again. I say we stay in motion and go the long way. It’s more 
+ important to make it home then it is to race the clock.”
+ 
+Elaine clicked on- “I’ve never seen something so monstrous and, to be 
+ curt, bloody terrifying… If we want to keep our britches out of the way
+ of puddles, we’d best sit tight in that canyon. Please, for my sake, 
+ don’t charge into the mouth of the particularly hungry alligator that 
+ at this point is no longer hidden due to the certainty it feels about 
+ killing us.”
+ 
+==========Player options==========
+//player can pick one of these options
+Go to canyon | Through Storm | Around Storm
+==========Expansion===========
+********Canyon (-2 reserve)********
+You settle down in the canyon and the storm rolls 
+over you. There are crackles of magical energy in the storm and you can 
+feel the entire ship shake. Luckily most of the storm passes over you, 
+however piloting the ship out of the canyon takes more fuel than you 
+thought.
+
+Jeric- “*grumbling* Yet another opportunity wasted, yet another day I 
+ live…”
+Harold- “We coulda saved on fuel, but I suppose we’re still alive.”
+Elaine- “Wonderful! If we’d decided to brave the storm I imagine my wits would’ve 
+ gone parachuting.”
+  
+********Through Storm (+2 explosion)********
+As you fly through the storm, the sand tears at your ship, blasting the 
+paint of the sides. A great bolt of lightning blasts along your ship...
+
+    ***If Player Explodes***
+    overloading your engines and causing them to belch out black smoke. 
+    The deck drops, and you feel yourself falling, and hear a terrible 
+    splintering sound as your ship crashes into the ground.
+    
+    Jeric- “A mighty fine eruption! And yet, I still draw breath… 
+        Clearly the storm was unworthy of finishing me off.”
+    Harold- “GREAT. Very fine choice, captain. Next time, why don’t you 
+        steer us into a mountain!”
+    Elaine- “*shaking* You know, we’ll never make it through this if we 
+        toss ourselves into pits of feral raptors at every given 
+        opportunity. Please don’t ever do that again.”
+        
+    ***If Player does not Explode***
+    luckily the ribs of your ballon cause the energy to harmlessly 
+    disperse along your ship.
+    
+    Jeric- “We made it through the other side. Don’t you feel stronger?
+        What could stop us now?”
+    Harold- “We got lucky, kid. Don’t pull anything like that again. I 
+        plan on seeing my grandkids, thank you.”
+    Elaine- “Well, that could’ve gone worse. But if you intended to stop 
+        my heart, a basketful of puppies would’ve been preferable in the
+        future.”
+
+********Through Storm (+1 roll)********
+You turn your ship and head to the side of the storm. With a strong push,
+ you manage to pull just out of the path of the sand storm, and while 
+ you’ve avoided the major danger, you will have a longer journey to get 
+ to your destination, and more chances for something to go wrong. 
+ 
+    Jeric- “You’ll never overcome anything if you choose to run away.”
+    Harold- “Good call, cap. We’re a little behind schedule, but 
+        storms’ll do that.”
+    Elaine- “I thought going around would be quite literally next to the
+        storm. *chuckling* Glad I was mistaken!”1
