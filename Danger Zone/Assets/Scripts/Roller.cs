@@ -16,9 +16,9 @@ public class Roller : MonoBehaviour {
 		rb = GetComponent<Rigidbody>();
 		//xThrust = Random.Range(-10, 10);
 		yThrust = Random.Range(4, 6);
-		zThrust = Random.Range(4, 10);
-		torque1 = Random.Range(-100, 100);
-		torque2 = Random.Range(-100, 100);
+		zThrust = Random.Range(20, 30);
+		torque1 = Random.Range(-200, 200);
+		torque2 = Random.Range(-200, 200);
 		/*if(Mathf.Abs(xThrust)<3){xThrust=3;}
 		if(Mathf.Abs(yThrust)<3){yThrust=3;}
 		if(Mathf.Abs(zThrust)<3){zThrust=3;}*/

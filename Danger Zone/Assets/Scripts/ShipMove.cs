@@ -6,6 +6,7 @@ public class ShipMove : MonoBehaviour {
 	
 	public GameObject ship;
 	public GameObject node;
+	Vector3 dest;
 
 	// Use this for initialization
 	void Start () {
@@ -20,7 +21,9 @@ public class ShipMove : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		this.StartCoroutine (SmoothMove (node.transform.position, 0.02f));
+		dest = node.transform.position;
+		dest.y += 3;
+		this.StartCoroutine (SmoothMove (dest, 0.02f));
 	}
 	
 	IEnumerator SmoothMove(Vector3 target, float delta)
