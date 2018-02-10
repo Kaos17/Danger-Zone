@@ -17,7 +17,7 @@ public class Tosser : MonoBehaviour {
 		
 		if(Input.GetKeyDown(KeyCode.Space)){
 			for(int i=0; i<count; i++){
-				Instantiate(die, new Vector3(Random.Range(-7f, 7f), 4.5f, -9f), Quaternion.identity);
+				Instantiate(die, new Vector3(Random.Range(-7f, 7f), -1.4f, -9f), Quaternion.identity);
 			}
 		}
 	}

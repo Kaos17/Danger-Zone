@@ -7,10 +7,15 @@ namespace UnityStandardAssets.Effects
     public class ParticleSystemMultiplier : MonoBehaviour
     {
 		public GameObject ship;
+		public GameObject camera;
         // a simple script to scale the size, speed and lifetime of a particle system
 
         public float multiplier = 1;
 
+		private void Start()
+		{
+			//camera = GameObject.Find ("Main Camera");
+		}
 
 		private void Update()
         {
@@ -25,6 +30,7 @@ namespace UnityStandardAssets.Effects
 					system.Play ();
 				}
 				transform.parent = null;
+				camera.transform.parent = null;
 				Destroy (ship);
 				StartCoroutine (pause());
 				Destroy (this);

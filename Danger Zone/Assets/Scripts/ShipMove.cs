@@ -22,7 +22,9 @@ public class ShipMove : MonoBehaviour {
 
 	void OnMouseDown(){
 		dest = node.transform.position;
-		dest.y += 3;
+		dest.y += 0;
+		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Locked;
 		this.StartCoroutine (SmoothMove (dest, 0.02f));
 	}
 	
@@ -54,5 +56,7 @@ public class ShipMove : MonoBehaviour {
  
          // Confirm  it's ended
          Debug.Log ("Movement Complete");
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
      }
 }
