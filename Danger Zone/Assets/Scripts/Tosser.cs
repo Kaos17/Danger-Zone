@@ -6,6 +6,7 @@ public class Tosser : MonoBehaviour {
 	
 	public int count;
 	public GameObject die;
+	public ScreenChanger fwoom;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,13 @@ public class Tosser : MonoBehaviour {
 			for(int i=0; i<count; i++){
 				Instantiate(die, new Vector3(Random.Range(-7f, 7f), -1.4f, -9f), Quaternion.identity);
 			}
+			StartCoroutine (pause());
 		}
+	}
+
+	IEnumerator pause(){
+		yield return new WaitForSecondsRealtime (3);
+		Vector3 spot = new Vector3(fwoom.targetX, fwoom.targetY, fwoom.targetZ);
+		this.StartCoroutine(fwoom.SmoothMove(spot, 0.01f));
 	}
 }

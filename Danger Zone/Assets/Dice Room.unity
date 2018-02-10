@@ -145,6 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 32168712}
+  fwoom: {fileID: 0}
 --- !u!23 &32168714
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -244,6 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 41344220}
+  fwoom: {fileID: 0}
 --- !u!23 &41344222
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -343,6 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 88717380}
+  fwoom: {fileID: 0}
 --- !u!23 &88717382
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -442,6 +445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 159717101}
+  fwoom: {fileID: 0}
 --- !u!23 &159717103
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -541,6 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 171404755}
+  fwoom: {fileID: 0}
 --- !u!23 &171404757
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -640,6 +645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 178883909}
+  fwoom: {fileID: 0}
 --- !u!23 &178883911
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -797,6 +803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 186696123}
+  fwoom: {fileID: 0}
 --- !u!23 &186696125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -896,6 +903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 196453813}
+  fwoom: {fileID: 0}
 --- !u!23 &196453815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -995,6 +1003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 204085686}
+  fwoom: {fileID: 0}
 --- !u!23 &204085688
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1094,6 +1103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 211955426}
+  fwoom: {fileID: 0}
 --- !u!23 &211955428
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1193,6 +1203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 224868071}
+  fwoom: {fileID: 0}
 --- !u!23 &224868073
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1389,6 +1400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 253061453}
+  fwoom: {fileID: 0}
 --- !u!23 &253061455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1488,6 +1500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 267506515}
+  fwoom: {fileID: 0}
 --- !u!23 &267506517
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1587,6 +1600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 329499881}
+  fwoom: {fileID: 0}
 --- !u!23 &329499883
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1686,6 +1700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 342148185}
+  fwoom: {fileID: 0}
 --- !u!23 &342148187
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1785,6 +1800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 401222338}
+  fwoom: {fileID: 0}
 --- !u!23 &401222340
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2012,6 +2028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 422440772}
+  fwoom: {fileID: 0}
 --- !u!23 &422440774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2111,6 +2128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 434161101}
+  fwoom: {fileID: 0}
 --- !u!23 &434161103
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2534,6 +2552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 519706724}
+  fwoom: {fileID: 0}
 --- !u!23 &519706726
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2633,6 +2652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 587874237}
+  fwoom: {fileID: 0}
 --- !u!23 &587874239
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2870,6 +2890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 622974651}
+  fwoom: {fileID: 0}
 --- !u!23 &622974653
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2969,6 +2990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 639744571}
+  fwoom: {fileID: 0}
 --- !u!23 &639744573
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3068,6 +3090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 676415103}
+  fwoom: {fileID: 0}
 --- !u!23 &676415105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3167,6 +3190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 699581746}
+  fwoom: {fileID: 0}
 --- !u!23 &699581748
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3266,6 +3290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 703129159}
+  fwoom: {fileID: 0}
 --- !u!23 &703129161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3365,6 +3390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 727299636}
+  fwoom: {fileID: 0}
 --- !u!23 &727299638
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3464,6 +3490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 740213767}
+  fwoom: {fileID: 0}
 --- !u!23 &740213769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3748,6 +3775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 775759502}
+  fwoom: {fileID: 0}
 --- !u!23 &775759504
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3847,6 +3875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 790037109}
+  fwoom: {fileID: 0}
 --- !u!23 &790037111
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3946,6 +3975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 807381541}
+  fwoom: {fileID: 0}
 --- !u!23 &807381543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4045,6 +4075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 849895631}
+  fwoom: {fileID: 0}
 --- !u!23 &849895633
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4228,6 +4259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 890062211}
+  fwoom: {fileID: 0}
 --- !u!23 &890062213
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4411,6 +4443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 950887988}
+  fwoom: {fileID: 0}
 --- !u!23 &950887990
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4510,6 +4543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 954804858}
+  fwoom: {fileID: 0}
 --- !u!23 &954804860
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4609,6 +4643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 958175772}
+  fwoom: {fileID: 0}
 --- !u!23 &958175774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4708,6 +4743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 965318150}
+  fwoom: {fileID: 0}
 --- !u!23 &965318152
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4893,6 +4929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 999186553}
+  fwoom: {fileID: 0}
 --- !u!23 &999186555
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5080,6 +5117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1059605624}
+  fwoom: {fileID: 0}
 --- !u!23 &1059605626
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5179,6 +5217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1092740049}
+  fwoom: {fileID: 0}
 --- !u!23 &1092740051
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5278,6 +5317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1092813582}
+  fwoom: {fileID: 0}
 --- !u!23 &1092813584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5442,6 +5482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1132725258}
+  fwoom: {fileID: 0}
 --- !u!23 &1132725260
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5541,6 +5582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1143622347}
+  fwoom: {fileID: 0}
 --- !u!23 &1143622349
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5726,6 +5768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1205232235}
+  fwoom: {fileID: 0}
 --- !u!23 &1205232237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5825,6 +5868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1207045967}
+  fwoom: {fileID: 0}
 --- !u!23 &1207045969
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6010,6 +6054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1223501313}
+  fwoom: {fileID: 0}
 --- !u!23 &1223501315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6109,6 +6154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1225199417}
+  fwoom: {fileID: 0}
 --- !u!23 &1225199419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6336,6 +6382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1240464983}
+  fwoom: {fileID: 0}
 --- !u!23 &1240464985
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6432,6 +6479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   count: 4
   die: {fileID: 183555897}
+  fwoom: {fileID: 1845156509}
 --- !u!4 &1246640633
 Transform:
   m_ObjectHideFlags: 0
@@ -6477,6 +6525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1256153941}
+  fwoom: {fileID: 0}
 --- !u!23 &1256153943
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6701,6 +6750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1291930533}
+  fwoom: {fileID: 0}
 --- !u!23 &1291930535
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6800,6 +6850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1311927113}
+  fwoom: {fileID: 0}
 --- !u!23 &1311927115
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6961,6 +7012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1400960786}
+  fwoom: {fileID: 0}
 --- !u!23 &1400960788
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7060,6 +7112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1479421333}
+  fwoom: {fileID: 0}
 --- !u!23 &1479421335
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7159,6 +7212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1487487756}
+  fwoom: {fileID: 0}
 --- !u!23 &1487487758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7361,6 +7415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1511623544}
+  fwoom: {fileID: 0}
 --- !u!23 &1511623546
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7460,6 +7515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1565888772}
+  fwoom: {fileID: 0}
 --- !u!23 &1565888774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7643,6 +7699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1627315838}
+  fwoom: {fileID: 0}
 --- !u!23 &1627315840
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7742,6 +7799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1636235276}
+  fwoom: {fileID: 0}
 --- !u!23 &1636235278
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7841,6 +7899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1673627221}
+  fwoom: {fileID: 0}
 --- !u!23 &1673627223
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8055,6 +8114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1697832744}
+  fwoom: {fileID: 0}
 --- !u!23 &1697832746
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8154,6 +8214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1734616343}
+  fwoom: {fileID: 0}
 --- !u!23 &1734616345
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8253,6 +8314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1752323229}
+  fwoom: {fileID: 0}
 --- !u!23 &1752323231
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8438,6 +8500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1808832165}
+  fwoom: {fileID: 0}
 --- !u!23 &1808832167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8665,6 +8728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1848242114}
+  fwoom: {fileID: 0}
 --- !u!23 &1848242116
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8838,6 +8902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1877091056}
+  fwoom: {fileID: 0}
 --- !u!23 &1877091058
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8937,6 +9002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1937341261}
+  fwoom: {fileID: 0}
 --- !u!23 &1937341263
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9036,6 +9102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1973085512}
+  fwoom: {fileID: 0}
 --- !u!23 &1973085514
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9135,6 +9202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 1986658331}
+  fwoom: {fileID: 0}
 --- !u!23 &1986658333
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9234,6 +9302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 2001427818}
+  fwoom: {fileID: 0}
 --- !u!23 &2001427820
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9333,6 +9402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 2003660364}
+  fwoom: {fileID: 0}
 --- !u!23 &2003660366
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9432,6 +9502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 2023483892}
+  fwoom: {fileID: 0}
 --- !u!23 &2023483894
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9531,6 +9602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 2040921829}
+  fwoom: {fileID: 0}
 --- !u!23 &2040921831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9630,6 +9702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 2042456579}
+  fwoom: {fileID: 0}
 --- !u!23 &2042456581
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9729,6 +9802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 2093586557}
+  fwoom: {fileID: 0}
 --- !u!23 &2093586559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9828,6 +9902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ship: {fileID: 599336217}
   node: {fileID: 2123190277}
+  fwoom: {fileID: 0}
 --- !u!23 &2123190279
 MeshRenderer:
   m_ObjectHideFlags: 0

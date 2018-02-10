@@ -6,11 +6,13 @@ public class ShipMove : MonoBehaviour {
 	
 	public GameObject ship;
 	public GameObject node;
+	public ScreenChanger fwoom;
 	Vector3 dest;
+	bool active = true;
 
 	// Use this for initialization
 	void Start () {
-		
+		fwoom = GameObject.Find ("toDice").GetComponent<ScreenChanger> ();
 	}
 	
 	// Update is called once per frame
@@ -21,11 +23,13 @@ public class ShipMove : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		dest = node.transform.position;
-		dest.y += 0;
-		Cursor.visible = false;
-		Cursor.lockState = CursorLockMode.Locked;
-		this.StartCoroutine (SmoothMove (dest, 0.02f));
+		//if (active) {
+			dest = node.transform.position;
+			dest.y += 0;
+			Cursor.visible = false;
+			Cursor.lockState = CursorLockMode.Locked;
+			this.StartCoroutine (SmoothMove (dest, 0.02f));
+		//}
 	}
 	
 	IEnumerator SmoothMove(Vector3 target, float delta)
@@ -41,7 +45,7 @@ public class ShipMove : MonoBehaviour {
          while(distance >= closeEnough)
          {
              // Confirm that it's moving
-             Debug.Log("Executing Movement");
+             //Debug.Log("Executing Movement");
  
              // Move a bit then  wait until next  frame
              ship.transform.position = Vector3.Slerp(ship.transform.position, target, delta);
@@ -55,7 +59,9 @@ public class ShipMove : MonoBehaviour {
          ship.transform.position = target;
  
          // Confirm  it's ended
-         Debug.Log ("Movement Complete");
+         //Debug.Log ("Movement Complete");
+		Vector3 spot = new Vector3(fwoom.targetX, fwoom.targetY, fwoom.targetZ);
+		this.StartCoroutine(fwoom.SmoothMove(spot, 0.01f));
 		Cursor.lockState = CursorLockMode.None;
 		Cursor.visible = true;
      }

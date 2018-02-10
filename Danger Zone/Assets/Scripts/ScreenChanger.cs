@@ -26,7 +26,7 @@ public class ScreenChanger : MonoBehaviour {
 		this.StartCoroutine(SmoothMove(spot, 0.01f));
 	}
 
-	IEnumerator SmoothMove(Vector3 target, float delta)
+	public IEnumerator SmoothMove(Vector3 target, float delta)
 	{
 		// Will need to perform some of this process and yield until next frames
 		float closeEnough = 0.2f;
@@ -39,7 +39,7 @@ public class ScreenChanger : MonoBehaviour {
 		while(distance >= closeEnough)
 		{
 			// Confirm that it's moving
-			Debug.Log("Executing Movement");
+			//Debug.Log("Executing Movement");
 
 			// Move a bit then  wait until next  frame
 			cam.transform.position = Vector3.Slerp(cam.transform.position, target, delta);
@@ -53,6 +53,6 @@ public class ScreenChanger : MonoBehaviour {
 		cam.transform.position = target;
 
 		// Confirm  it's ended
-		Debug.Log ("Movement Complete");
+		//Debug.Log ("Movement Complete");
 	}
 }
