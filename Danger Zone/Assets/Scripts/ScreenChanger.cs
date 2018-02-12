@@ -23,7 +23,7 @@ public class ScreenChanger : MonoBehaviour {
 
 	public void HandleClick(){
 		Vector3 spot = new Vector3(targetX, targetY, targetZ);
-		this.StartCoroutine(SmoothMove(spot, 0.01f));
+		this.StartCoroutine(SmoothMove(spot, 0.02f));
 	}
 
 	public IEnumerator SmoothMove(Vector3 target, float delta)

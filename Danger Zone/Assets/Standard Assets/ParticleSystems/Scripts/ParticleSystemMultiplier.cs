@@ -8,6 +8,9 @@ namespace UnityStandardAssets.Effects
     {
 		public GameObject ship;
 		public GameObject camera;
+		public GameObject cam2;
+		public GameObject camGhost;
+		public bool boom = false;
         // a simple script to scale the size, speed and lifetime of a particle system
 
         public float multiplier = 1;
@@ -19,7 +22,7 @@ namespace UnityStandardAssets.Effects
 
 		private void Update()
         {
-			if (Input.GetKeyDown (KeyCode.E)) {
+			if (Input.GetKeyDown (KeyCode.E) || boom) {
 				var systems = GetComponentsInChildren<ParticleSystem> ();
 				foreach (ParticleSystem system in systems) {
 					ParticleSystem.MainModule mainModule = system.main;
@@ -31,7 +34,10 @@ namespace UnityStandardAssets.Effects
 				}
 				transform.parent = null;
 				camera.transform.parent = null;
+				cam2.transform.parent = null;
+				camGhost.transform.parent = null;
 				Destroy (ship);
+				boom = false;
 				StartCoroutine (pause());
 				Destroy (this);
 			}

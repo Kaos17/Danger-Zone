@@ -53,6 +53,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Attach.cs" />
      <Compile Include="Assets\Scripts\BlimpSlots.cs" />
+     <Compile Include="Assets\Scripts\Boomer.cs" />
+     <Compile Include="Assets\Scripts\CamManager.cs" />
      <Compile Include="Assets\Scripts\Extend.cs" />
      <Compile Include="Assets\Scripts\Insert.cs" />
      <Compile Include="Assets\Scripts\Roller.cs" />
