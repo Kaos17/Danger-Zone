@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\CamManager.cs" />
      <Compile Include="Assets\Scripts\Extend.cs" />
      <Compile Include="Assets\Scripts\Insert.cs" />
+     <Compile Include="Assets\Scripts\Restart.cs" />
      <Compile Include="Assets\Scripts\Roller.cs" />
      <Compile Include="Assets\Scripts\ScreenChanger.cs" />
      <Compile Include="Assets\Scripts\ShipMove.cs" />
