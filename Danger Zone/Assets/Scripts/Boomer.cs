@@ -5,7 +5,7 @@ using UnityStandardAssets.Effects;
 
 public class Boomer : MonoBehaviour {
 
-	int fuse = 0;
+	public int fuse = 0;
 	public ParticleSystemMultiplier bomb;
 
 	// Use this for initialization
@@ -15,9 +15,9 @@ public class Boomer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (fuse >= 2) {
+		/*if (fuse >= 2) {
 			bomb.boom = true;
-		}
+		}*/
 	}
 
 	void OnTriggerEnter(Collider other){

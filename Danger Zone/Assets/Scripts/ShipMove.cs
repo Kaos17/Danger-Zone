@@ -62,7 +62,5 @@ public class ShipMove : MonoBehaviour {
          //Debug.Log ("Movement Complete");
 		Vector3 spot = new Vector3(fwoom.targetX, fwoom.targetY, fwoom.targetZ);
 		this.StartCoroutine(fwoom.SmoothMove(spot, 0.01f));
-		Cursor.lockState = CursorLockMode.None;
-		Cursor.visible = true;
      }
 }

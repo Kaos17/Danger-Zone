@@ -10,6 +10,7 @@ public class ScreenChanger : MonoBehaviour {
 	public float targetX;
 	public float targetY;
 	public float targetZ;
+	public Boomer sharon;
 
 	// Use this for initialization
 	void Start () {
@@ -28,6 +29,8 @@ public class ScreenChanger : MonoBehaviour {
 
 	public IEnumerator SmoothMove(Vector3 target, float delta)
 	{
+		Cursor.visible = false;
+		Cursor.lockState = CursorLockMode.Locked;
 		// Will need to perform some of this process and yield until next frames
 		float closeEnough = 0.2f;
 		float distance = (cam.transform.position - target).magnitude;
@@ -54,5 +57,10 @@ public class ScreenChanger : MonoBehaviour {
 
 		// Confirm  it's ended
 		//Debug.Log ("Movement Complete");
+		if (sharon.fuse >= 2) {
+			sharon.bomb.boom = true;
+		}
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
 	}
 }

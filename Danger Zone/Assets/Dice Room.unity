@@ -1945,6 +1945,7 @@ MonoBehaviour:
   targetX: 0
   targetY: 2.1
   targetZ: -8.41
+  sharon: {fileID: 970368930}
 --- !u!114 &418929538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4954,6 +4955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5dede866ece22b459bb8301117f634c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuse: 0
   bomb: {fileID: 1885244326}
 --- !u!1 &999186553
 GameObject:
@@ -6246,6 +6248,7 @@ MonoBehaviour:
   targetX: 155.8
   targetY: 9
   targetZ: -13.63
+  sharon: {fileID: 970368930}
 --- !u!114 &1227563734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8621,6 +8624,7 @@ MonoBehaviour:
   targetX: 38.36
   targetY: 8
   targetZ: -8.41
+  sharon: {fileID: 970368930}
 --- !u!114 &1845156510
 MonoBehaviour:
   m_ObjectHideFlags: 0
