@@ -10,6 +10,7 @@ public class ScreenChanger : MonoBehaviour {
 	public float targetX;
 	public float targetY;
 	public float targetZ;
+	public bool mapwards;
 	public Boomer sharon;
 
 	// Use this for initialization
@@ -57,10 +58,13 @@ public class ScreenChanger : MonoBehaviour {
 
 		// Confirm  it's ended
 		//Debug.Log ("Movement Complete");
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
 		if (sharon.fuse >= 2) {
 			sharon.bomb.boom = true;
 		}
-		Cursor.lockState = CursorLockMode.None;
-		Cursor.visible = true;
+		else if (mapwards) {
+			sharon.map = true;
+		}
 	}
 }

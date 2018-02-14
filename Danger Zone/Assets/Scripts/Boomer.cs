@@ -7,6 +7,8 @@ public class Boomer : MonoBehaviour {
 
 	public int fuse = 0;
 	public ParticleSystemMultiplier bomb;
+	public bool chief = false;
+	public bool map = true;
 
 	// Use this for initialization
 	void Start () {

@@ -227,6 +227,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 32168712}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &32168714
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -292,7 +293,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &41344220
 GameObject:
@@ -327,6 +328,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 41344220}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &41344222
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -392,7 +394,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &88717380
 GameObject:
@@ -427,6 +429,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 88717380}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &88717382
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -492,7 +495,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &159717101
 GameObject:
@@ -527,6 +530,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 159717101}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &159717103
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -592,7 +596,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &171404755
 GameObject:
@@ -627,6 +631,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 171404755}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &171404757
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -692,7 +697,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &178883909
 GameObject:
@@ -727,6 +732,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 178883909}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &178883911
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -792,7 +798,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &186696123
 GameObject:
@@ -827,6 +833,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 186696123}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &186696125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -892,7 +899,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &196453813
 GameObject:
@@ -927,6 +934,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 196453813}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &196453815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -992,7 +1000,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &204085686
 GameObject:
@@ -1027,6 +1035,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 204085686}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &204085688
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1092,7 +1101,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &211955426
 GameObject:
@@ -1127,6 +1136,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 211955426}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &211955428
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1192,7 +1202,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &224868071
 GameObject:
@@ -1227,6 +1237,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 224868071}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &224868073
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1292,7 +1303,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &245065607
 GameObject:
@@ -1424,6 +1435,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 253061453}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &253061455
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1489,7 +1501,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &267506515
 GameObject:
@@ -1524,6 +1536,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 267506515}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &267506517
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1589,7 +1602,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &329499881
 GameObject:
@@ -1624,6 +1637,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 329499881}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &329499883
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1689,7 +1703,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &342148185
 GameObject:
@@ -1724,6 +1738,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 342148185}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &342148187
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1789,7 +1804,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &401222338
 GameObject:
@@ -1824,6 +1839,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 401222338}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &401222340
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1889,7 +1905,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &418929535
 GameObject:
@@ -1945,6 +1961,7 @@ MonoBehaviour:
   targetX: 0
   targetY: 2.1
   targetZ: -8.41
+  mapwards: 0
   sharon: {fileID: 970368930}
 --- !u!114 &418929538
 MonoBehaviour:
@@ -2053,6 +2070,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 422440772}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &422440774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2118,7 +2136,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &434161101
 GameObject:
@@ -2153,6 +2171,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 434161101}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &434161103
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2218,7 +2237,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 73
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &435912639
 GameObject:
@@ -2585,6 +2604,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 519706724}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &519706726
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2650,7 +2670,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &587874237
 GameObject:
@@ -2685,6 +2705,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 587874237}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &587874239
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2750,7 +2771,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &597134251
 GameObject:
@@ -2923,6 +2944,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 622974651}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &622974653
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2988,7 +3010,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &639744571
 GameObject:
@@ -3023,6 +3045,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 639744571}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &639744573
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3088,7 +3111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &676415103
 GameObject:
@@ -3123,6 +3146,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 676415103}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &676415105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3188,7 +3212,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &699581746
 GameObject:
@@ -3223,6 +3247,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 699581746}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &699581748
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3288,7 +3313,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &703129159
 GameObject:
@@ -3323,6 +3348,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 703129159}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &703129161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3388,7 +3414,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &727299636
 GameObject:
@@ -3423,6 +3449,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 727299636}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &727299638
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3488,7 +3515,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &740213767
 GameObject:
@@ -3523,6 +3550,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 740213767}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &740213769
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3588,7 +3616,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &745860498
 GameObject:
@@ -3783,12 +3811,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68ec994fffbb2141a472dff0fe44277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blank: {fileID: 1682600362}
+  bloon: {fileID: 1682600362}
+  engine: {fileID: 1077427926}
+  third: {fileID: 771661471}
+  fourth: {fileID: 1699232730}
   top1: {x: 151.62, y: -4, z: 11}
   top2: {x: 161.12, y: -4, z: 11}
   bottom: {x: 156.12, y: -4, z: -11.4}
   left: {x: 143.42, y: -4, z: -0.2}
   right: {x: 168.82, y: -4, z: -0.2}
+--- !u!1 &771661471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 771661476}
+  - component: {fileID: 771661475}
+  - component: {fileID: 771661474}
+  - component: {fileID: 771661473}
+  - component: {fileID: 771661472}
+  m_Layer: 0
+  m_Name: aug slot 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &771661472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771661471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a30bfb0e233bd044ba71756319dc6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1259951877}
+  label: third
+  bright: {fileID: 2100000, guid: dfad0b778d76e4c4eb0ee2377c0bd3ae, type: 2}
+  dark: {fileID: 2100000, guid: 3026373903f894743a2d320c2f0f89fe, type: 2}
+--- !u!23 &771661473
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771661471}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &771661474
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771661471}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &771661475
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771661471}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &771661476
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 771661471}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 22.88, y: -24.5, z: 19.16}
+  m_LocalScale: {x: 0.51280284, y: 1, z: 0.7364431}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &775759502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3822,6 +3955,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 775759502}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &775759504
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3887,7 +4021,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &790037109
 GameObject:
@@ -3922,6 +4056,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 790037109}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &790037111
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3987,7 +4122,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &807381541
 GameObject:
@@ -4022,6 +4157,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 807381541}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &807381543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4087,7 +4223,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 85
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &849895631
 GameObject:
@@ -4122,6 +4258,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 849895631}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &849895633
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4187,7 +4324,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &863508173
 GameObject:
@@ -4271,7 +4408,7 @@ Transform:
   m_LocalScale: {x: 20.12833, y: 11.202743, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 86
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890062211
 GameObject:
@@ -4306,6 +4443,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 890062211}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &890062213
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4371,7 +4509,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &944667496
 GameObject:
@@ -4455,7 +4593,7 @@ Transform:
   m_LocalScale: {x: 20.12833, y: 11.20274, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 88
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &950887988
 GameObject:
@@ -4490,6 +4628,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 950887988}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &950887990
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4555,7 +4694,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &954804858
 GameObject:
@@ -4590,6 +4729,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 954804858}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &954804860
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4655,7 +4795,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &958175772
 GameObject:
@@ -4690,6 +4830,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 958175772}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &958175774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4755,7 +4896,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &965318150
 GameObject:
@@ -4790,6 +4931,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 965318150}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &965318152
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4855,7 +4997,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970368925
 GameObject:
@@ -4957,6 +5099,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuse: 0
   bomb: {fileID: 1885244326}
+  chief: 0
+  map: 1
 --- !u!1 &999186553
 GameObject:
   m_ObjectHideFlags: 0
@@ -4990,6 +5134,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 999186553}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &999186555
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5055,7 +5200,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1059605624
 GameObject:
@@ -5090,6 +5235,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1059605624}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1059605626
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5155,8 +5301,110 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1077427926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1077427931}
+  - component: {fileID: 1077427930}
+  - component: {fileID: 1077427929}
+  - component: {fileID: 1077427928}
+  - component: {fileID: 1077427927}
+  m_Layer: 0
+  m_Name: engine slot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1077427927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077427926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a30bfb0e233bd044ba71756319dc6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1259951877}
+  label: engine
+  bright: {fileID: 2100000, guid: dfad0b778d76e4c4eb0ee2377c0bd3ae, type: 2}
+  dark: {fileID: 2100000, guid: 3026373903f894743a2d320c2f0f89fe, type: 2}
+--- !u!23 &1077427928
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077427926}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1077427929
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077427926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1077427930
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077427926}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1077427931
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077427926}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 29.43, y: -24.5, z: 19.16}
+  m_LocalScale: {x: 0.51280284, y: 1, z: 0.7364431}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1092740049
 GameObject:
   m_ObjectHideFlags: 0
@@ -5190,6 +5438,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1092740049}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1092740051
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5255,7 +5504,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1092813582
 GameObject:
@@ -5290,6 +5539,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1092813582}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1092813584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5355,7 +5605,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1095137213
 GameObject:
@@ -5455,6 +5705,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1132725258}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1132725260
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5520,7 +5771,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 72
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1143622347
 GameObject:
@@ -5555,6 +5806,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1143622347}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1143622349
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5620,7 +5872,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1201082303
 GameObject:
@@ -5741,6 +5993,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1205232235}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1205232237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5806,7 +6059,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1207045967
 GameObject:
@@ -5841,6 +6094,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1207045967}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1207045969
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5906,7 +6160,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1210812483
 GameObject:
@@ -5940,7 +6194,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 3026373903f894743a2d320c2f0f89fe, type: 2}
+  - {fileID: 2100000, guid: ad176c65665b41f45959df4ead746bbc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6027,6 +6281,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1223501313}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1223501315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6092,7 +6347,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1225199417
 GameObject:
@@ -6127,6 +6382,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1225199417}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1225199419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6192,7 +6448,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1227563731
 GameObject:
@@ -6248,6 +6504,7 @@ MonoBehaviour:
   targetX: 155.8
   targetY: 9
   targetZ: -13.63
+  mapwards: 0
   sharon: {fileID: 970368930}
 --- !u!114 &1227563734
 MonoBehaviour:
@@ -6356,6 +6613,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1240464983}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1240464985
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6421,7 +6679,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246640631
 GameObject:
@@ -6500,6 +6758,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1256153941}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1256153943
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6565,7 +6824,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1259951872
 GameObject:
@@ -6689,9 +6948,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b6312c078974a489678aa197152479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedAug: {fileID: 0}
+  selectedAug: {fileID: 171404755}
+  fake: {fileID: 171404755}
   butt: {fileID: 1259951874}
   associated: {fileID: 1502330492}
+  camGhost: {fileID: 1304117047}
+  fwoom: {fileID: 1845156509}
 --- !u!1 &1291930533
 GameObject:
   m_ObjectHideFlags: 0
@@ -6725,6 +6987,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1291930533}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1291930535
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6790,7 +7053,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304117047
 GameObject:
@@ -6853,6 +7116,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1311927113}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1311927115
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6918,7 +7182,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352791274
 GameObject:
@@ -7015,6 +7279,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1400960786}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1400960788
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7080,7 +7345,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1479421333
 GameObject:
@@ -7115,6 +7380,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1479421333}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1479421335
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7180,7 +7446,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1487487756
 GameObject:
@@ -7215,6 +7481,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1487487756}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1487487758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7280,7 +7547,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1502330492
 GameObject:
@@ -7296,7 +7563,7 @@ GameObject:
   - component: {fileID: 1502330493}
   m_Layer: 0
   m_Name: sample aug
-  m_TagString: Untagged
+  m_TagString: bloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7314,9 +7581,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blank: {fileID: 1682600362}
   top: 1
-  bottom: 1
-  left: 1
-  right: 1
+  bottom: 0
+  left: 0
+  right: 0
 --- !u!23 &1502330494
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7383,7 +7650,7 @@ Transform:
   m_LocalScale: {x: 0.51280284, y: 1, z: 0.7364431}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1511623544
 GameObject:
@@ -7418,6 +7685,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1511623544}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1511623546
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7483,7 +7751,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 83
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1565888772
 GameObject:
@@ -7518,6 +7786,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1565888772}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1565888774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7583,7 +7852,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1604275975
 GameObject:
@@ -7667,7 +7936,7 @@ Transform:
   m_LocalScale: {x: 20.12833, y: 11.20274, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 87
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1627315838
 GameObject:
@@ -7702,6 +7971,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1627315838}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1627315840
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7767,7 +8037,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1636235276
 GameObject:
@@ -7802,6 +8072,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1636235276}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1636235278
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7867,7 +8138,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1673627221
 GameObject:
@@ -7902,6 +8173,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1673627221}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1673627223
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7967,7 +8239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 84
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1682600362
 GameObject:
@@ -7981,9 +8253,8 @@ GameObject:
   - component: {fileID: 1682600364}
   - component: {fileID: 1682600363}
   - component: {fileID: 1682600367}
-  - component: {fileID: 1682600368}
   m_Layer: 0
-  m_Name: aug slot
+  m_Name: bloon slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8069,21 +8340,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1259951877}
---- !u!54 &1682600368
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1682600362}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  label: bloon
+  bright: {fileID: 2100000, guid: dfad0b778d76e4c4eb0ee2377c0bd3ae, type: 2}
+  dark: {fileID: 2100000, guid: 3026373903f894743a2d320c2f0f89fe, type: 2}
 --- !u!1 &1697832744
 GameObject:
   m_ObjectHideFlags: 0
@@ -8117,6 +8376,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1697832744}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1697832746
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8182,8 +8442,110 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1699232730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1699232735}
+  - component: {fileID: 1699232734}
+  - component: {fileID: 1699232733}
+  - component: {fileID: 1699232732}
+  - component: {fileID: 1699232731}
+  m_Layer: 0
+  m_Name: aug slot 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1699232731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699232730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a30bfb0e233bd044ba71756319dc6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 1259951877}
+  label: fourth
+  bright: {fileID: 2100000, guid: dfad0b778d76e4c4eb0ee2377c0bd3ae, type: 2}
+  dark: {fileID: 2100000, guid: 3026373903f894743a2d320c2f0f89fe, type: 2}
+--- !u!23 &1699232732
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699232730}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1699232733
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699232730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1699232734
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699232730}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1699232735
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699232730}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 36.28, y: -24.5, z: 19.16}
+  m_LocalScale: {x: 0.51280284, y: 1, z: 0.7364431}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1734616343
 GameObject:
   m_ObjectHideFlags: 0
@@ -8217,6 +8579,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1734616343}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1734616345
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8282,7 +8645,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1752323229
 GameObject:
@@ -8317,6 +8680,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1752323229}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1752323231
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8382,7 +8746,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1766550556
 GameObject:
@@ -8503,6 +8867,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1808832165}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1808832167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8568,7 +8933,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1845156507
 GameObject:
@@ -8624,6 +8989,7 @@ MonoBehaviour:
   targetX: 38.36
   targetY: 8
   targetZ: -8.41
+  mapwards: 1
   sharon: {fileID: 970368930}
 --- !u!114 &1845156510
 MonoBehaviour:
@@ -8732,6 +9098,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1848242114}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1848242116
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8797,7 +9164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1852534827
 GameObject:
@@ -8906,6 +9273,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1877091056}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1877091058
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8971,7 +9339,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1885244326 stripped
 MonoBehaviour:
@@ -9012,6 +9380,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1937341261}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1937341263
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9077,7 +9446,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1973085512
 GameObject:
@@ -9112,6 +9481,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1973085512}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1973085514
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9177,7 +9547,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1986658331
 GameObject:
@@ -9212,6 +9582,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 1986658331}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &1986658333
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9277,7 +9648,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2001427818
 GameObject:
@@ -9312,6 +9683,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 2001427818}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &2001427820
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9377,7 +9749,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2003660364
 GameObject:
@@ -9412,6 +9784,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 2003660364}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &2003660366
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9477,7 +9850,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2023483892
 GameObject:
@@ -9512,6 +9885,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 2023483892}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &2023483894
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9577,7 +9951,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2040921829
 GameObject:
@@ -9612,6 +9986,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 2040921829}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &2040921831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9677,7 +10052,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042456579
 GameObject:
@@ -9712,6 +10087,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 2042456579}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &2042456581
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9777,7 +10153,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2093586557
 GameObject:
@@ -9812,6 +10188,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 2093586557}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &2093586559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9877,7 +10254,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2123190277
 GameObject:
@@ -9912,6 +10289,7 @@ MonoBehaviour:
   ship: {fileID: 599336217}
   node: {fileID: 2123190277}
   fwoom: {fileID: 0}
+  fwoom2: {fileID: 0}
 --- !u!23 &2123190279
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9977,5 +10355,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

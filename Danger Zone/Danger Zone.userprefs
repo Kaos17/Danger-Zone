@@ -2,15 +2,15 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScreenChanger.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScreenChanger.cs" Line="62" Column="4" />
-      <File FileName="Assets\Scripts\ShipMove.cs" Line="64" Column="54" />
-      <File FileName="Assets\Scripts\Tosser.cs" Line="10" Column="29" />
-      <File FileName="Assets\Scripts\BlimpSlots.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScreenChanger.cs" Line="66" Column="8" />
+      <File FileName="Assets\Scripts\ShipMove.cs" Line="36" Column="4" />
+      <File FileName="Assets\Scripts\Tosser.cs" Line="28" Column="29" />
+      <File FileName="Assets\Scripts\BlimpSlots.cs" Line="23" Column="22" />
       <File FileName="Assets\Scripts\Extend.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Attach.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Insert.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Attach.cs" Line="33" Column="28" />
+      <File FileName="Assets\Scripts\Insert.cs" Line="10" Column="23" />
       <File FileName="Assets\Scripts\Roller.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Boomer.cs" Line="8" Column="9" />
+      <File FileName="Assets\Scripts\Boomer.cs" Line="20" Column="3" />
       <File FileName="Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

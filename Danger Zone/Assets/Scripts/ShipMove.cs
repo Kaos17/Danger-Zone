@@ -7,18 +7,23 @@ public class ShipMove : MonoBehaviour {
 	public GameObject ship;
 	public GameObject node;
 	public ScreenChanger fwoom;
+	public ScreenChanger fwoom2;
+	Boomer sharon;
 	Vector3 dest;
-	bool active = true;
 
 	// Use this for initialization
 	void Start () {
 		fwoom = GameObject.Find ("toDice").GetComponent<ScreenChanger> ();
+		fwoom2 = GameObject.Find ("toBuild").GetComponent<ScreenChanger> ();
+		sharon = GameObject.Find ("Dice Box").GetComponent<Boomer> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetMouseButtonDown(0)){
-			//this.StartCoroutine(SmoothMove(node.transform.position, 0.02f));
+		if(sharon.map && sharon.chief){
+			Vector3 place = new Vector3(fwoom2.targetX, fwoom2.targetY, fwoom2.targetZ);
+			this.StartCoroutine(fwoom2.SmoothMove(place, 0.02f));
+			sharon.chief = false;
 		}
 	}
 
@@ -28,6 +33,8 @@ public class ShipMove : MonoBehaviour {
 			dest.y += 0;
 			Cursor.visible = false;
 			Cursor.lockState = CursorLockMode.Locked;
+			sharon.map = false;
+			sharon.chief = true;
 			this.StartCoroutine (SmoothMove (dest, 0.02f));
 		//}
 	}

@@ -368,8 +368,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a2d0000
-    m_LastClickedID: 11562
+    m_SelectedIDs: 542d0000
+    m_LastClickedID: 11604
     m_ExpandedIDs: 9efbffff00000000062b00009c2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -426,9 +426,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 48.308357, y: -11.907621, z: 5.7232933}
+    m_Target: {x: 54.02761, y: -19.184944, z: 4.7927074}
     speed: 2
-    m_Value: {x: 48.308357, y: -11.907621, z: 5.7232933}
+    m_Value: {x: 54.02761, y: -19.184944, z: 4.7927074}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -452,13 +452,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.292071, y: 0.0071726013, z: -0.0021907107, w: -0.9563672}
+    m_Target: {x: -0.45513585, y: 0.052036274, z: -0.026655838, w: -0.8885005}
     speed: 2
-    m_Value: {x: -0.29207104, y: 0.0071726018, z: -0.002190711, w: -0.95636725}
+    m_Value: {x: -0.45513585, y: 0.052036274, z: -0.026655838, w: -0.8885005}
   m_Size:
-    m_Target: 71.011566
+    m_Target: 56.0641
     speed: 2
-    m_Value: 71.011566
+    m_Value: 56.0641
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -536,19 +536,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kaos1\Documents\GitHub\Danger-Zone\Danger Zone
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: cc290000
-    m_LastClickedID: 10700
-    m_ExpandedIDs: 00000000d42700005a290000e829000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 5a290000
+    m_LastClickedID: 10586
+    m_ExpandedIDs: 00000000d42700005a29000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,8 +601,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 02060000
-    m_LastClickedInstanceID: 1538
+    m_SelectedInstanceIDs: 542d0000
+    m_LastClickedInstanceID: 11604
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -685,7 +685,7 @@ MonoBehaviour:
     width: 275
     height: 614
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 439.95508}
+  m_ScrollPosition: {x: 0, y: 456.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160

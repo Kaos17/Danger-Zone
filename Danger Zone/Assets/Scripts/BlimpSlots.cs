@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class BlimpSlots : MonoBehaviour {
 
-	public GameObject blank;
+	public GameObject bloon;
+	public GameObject engine;
+	public GameObject third;
+	public GameObject fourth;
 	public Vector3 top1;
 	public Vector3 top2;
 	public Vector3 bottom;
@@ -13,11 +16,11 @@ public class BlimpSlots : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Instantiate (blank, top1, Quaternion.identity);
-		Instantiate (blank, top2, Quaternion.identity);
-		Instantiate (blank, bottom, Quaternion.identity);
-		Instantiate (blank, left, Quaternion.identity);
-		Instantiate (blank, right, Quaternion.identity);
+		Instantiate (bloon, top1, Quaternion.identity);
+		Instantiate (bloon, top2, Quaternion.identity);
+		Instantiate (third, bottom, Quaternion.identity);
+		Instantiate (engine, left, Quaternion.identity);
+		Instantiate (fourth, right, Quaternion.identity);
 	}
 	
 	// Update is called once per frame
