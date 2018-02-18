@@ -8,6 +8,8 @@ public class Roller : MonoBehaviour {
 	float yThrust;
 	float zThrust;
 	public Rigidbody rb;
+	public GameObject die;
+	public Tosser hand;
 	float torque1;
 	float torque2;
 
@@ -25,6 +27,8 @@ public class Roller : MonoBehaviour {
 		rb.AddForce(0, yThrust, zThrust, ForceMode.Impulse);
 		rb.AddTorque(transform.up * torque1, ForceMode.VelocityChange);
 		rb.AddTorque(transform.right * torque2, ForceMode.VelocityChange);
+
+		hand = GameObject.Find ("nd4").GetComponent<Tosser> ();
 		
 	}
 	
@@ -42,4 +46,13 @@ public class Roller : MonoBehaviour {
 		}*/
 		
 	}
+
+	void OnMouseDown(){
+		if (hand.reserve > 0) {
+			hand.reserve--;
+			Instantiate (die, new Vector3 (Random.Range (-7f, 7f), -1.4f, -9f), Quaternion.identity);
+			Destroy (this.gameObject);
+		}
+	}
+
 }

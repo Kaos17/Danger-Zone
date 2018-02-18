@@ -13,7 +13,7 @@ public class ScreenChanger : MonoBehaviour {
 	public bool mapwards;
 	public bool dicewards;
 	public bool buildwards;
-	public Text diceWords;
+	public Button diceButton;
 	public Button augButton;
 	public Boomer sharon;
 	public Button diceDebug;
@@ -25,7 +25,9 @@ public class ScreenChanger : MonoBehaviour {
 		butt.onClick.AddListener (HandleClick);
 		augButton.enabled = false;
 		augButton.image.enabled = false;
-		diceWords.enabled = false;
+		diceButton.enabled = false;
+		diceButton.image.enabled = false;
+		diceButton.GetComponentInChildren<Text> ().enabled = false;
 		diceDebug.enabled = false;
 		diceDebug.image.enabled = false;
 		diceDebug.GetComponentInChildren<Text>().enabled = false;
@@ -53,7 +55,6 @@ public class ScreenChanger : MonoBehaviour {
 		Cursor.lockState = CursorLockMode.Locked;
 		augButton.enabled = false;
 		augButton.image.enabled = false;
-		diceWords.enabled = false;
 		// Will need to perform some of this process and yield until next frames
 		float closeEnough = 0.2f;
 		float distance = (cam.transform.position - target).magnitude;
@@ -87,7 +88,9 @@ public class ScreenChanger : MonoBehaviour {
 		} else if (mapwards) {
 			sharon.map = true;
 		} else if (dicewards) {
-			diceWords.enabled = true;
+			diceButton.enabled = true;
+			diceButton.image.enabled = true;
+			diceButton.GetComponentInChildren<Text> ().enabled = true;
 		} else if (buildwards) {
 			augButton.enabled = true;
 			augButton.image.enabled = true;
