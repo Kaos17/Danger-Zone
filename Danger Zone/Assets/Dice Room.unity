@@ -1396,6 +1396,7 @@ RectTransform:
   - {fileID: 1227563732}
   - {fileID: 1259951873}
   - {fileID: 1531253427}
+  - {fileID: 1063639847}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1964,7 +1965,14 @@ MonoBehaviour:
   targetY: 2.1
   targetZ: -8.41
   mapwards: 0
+  dicewards: 1
+  buildwards: 0
+  diceWords: {fileID: 1063639845}
+  augButton: {fileID: 1259951874}
   sharon: {fileID: 970368930}
+  diceDebug: {fileID: 418929538}
+  mapDebug: {fileID: 1845156510}
+  buildDebug: {fileID: 1227563734}
 --- !u!114 &418929538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5305,6 +5313,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1063639844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1063639847}
+  - component: {fileID: 1063639846}
+  - component: {fileID: 1063639845}
+  m_Layer: 5
+  m_Name: diceText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1063639845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063639844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Press Space
+--- !u!222 &1063639846
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063639844}
+--- !u!224 &1063639847
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063639844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 245065611}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 7, y: -82}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1077427926
 GameObject:
   m_ObjectHideFlags: 0
@@ -6581,7 +6663,14 @@ MonoBehaviour:
   targetY: 9
   targetZ: -13.63
   mapwards: 0
+  dicewards: 0
+  buildwards: 1
+  diceWords: {fileID: 1063639845}
+  augButton: {fileID: 1259951874}
   sharon: {fileID: 970368930}
+  diceDebug: {fileID: 418929538}
+  mapDebug: {fileID: 1845156510}
+  buildDebug: {fileID: 1227563734}
 --- !u!114 &1227563734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6929,14 +7018,14 @@ RectTransform:
   m_GameObject: {fileID: 1259951872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.39613336, y: 2.8796399, z: 0.39613315}
+  m_LocalScale: {x: 0.8558433, y: 6.2214427, z: 0.855843}
   m_Children: []
   m_Father: {fileID: 245065611}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 334, y: -62.9}
+  m_AnchoredPosition: {x: 604.8, y: -209.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1259951874
@@ -7864,7 +7953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -328, y: 146}
+  m_AnchoredPosition: {x: -611, y: 278}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1531253428
@@ -9190,7 +9279,14 @@ MonoBehaviour:
   targetY: 8
   targetZ: -8.41
   mapwards: 1
+  dicewards: 0
+  buildwards: 0
+  diceWords: {fileID: 1063639845}
+  augButton: {fileID: 1259951874}
   sharon: {fileID: 970368930}
+  diceDebug: {fileID: 418929538}
+  mapDebug: {fileID: 1845156510}
+  buildDebug: {fileID: 1227563734}
 --- !u!114 &1845156510
 MonoBehaviour:
   m_ObjectHideFlags: 0

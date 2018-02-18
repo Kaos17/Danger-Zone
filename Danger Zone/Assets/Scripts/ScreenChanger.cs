@@ -11,11 +11,30 @@ public class ScreenChanger : MonoBehaviour {
 	public float targetY;
 	public float targetZ;
 	public bool mapwards;
+	public bool dicewards;
+	public bool buildwards;
+	public Text diceWords;
+	public Button augButton;
 	public Boomer sharon;
+	public Button diceDebug;
+	public Button mapDebug;
+	public Button buildDebug;
 
 	// Use this for initialization
 	void Start () {
 		butt.onClick.AddListener (HandleClick);
+		augButton.enabled = false;
+		augButton.image.enabled = false;
+		diceWords.enabled = false;
+		diceDebug.enabled = false;
+		diceDebug.image.enabled = false;
+		diceDebug.GetComponentInChildren<Text>().enabled = false;
+		mapDebug.enabled = false;
+		mapDebug.image.enabled = false;
+		mapDebug.GetComponentInChildren<Text> ().enabled = false;
+		buildDebug.enabled = false;
+		buildDebug.image.enabled = false;
+		buildDebug.GetComponentInChildren<Text> ().enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -32,6 +51,9 @@ public class ScreenChanger : MonoBehaviour {
 	{
 		Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
+		augButton.enabled = false;
+		augButton.image.enabled = false;
+		diceWords.enabled = false;
 		// Will need to perform some of this process and yield until next frames
 		float closeEnough = 0.2f;
 		float distance = (cam.transform.position - target).magnitude;
@@ -62,9 +84,13 @@ public class ScreenChanger : MonoBehaviour {
 		Cursor.visible = true;
 		if (sharon.fuse >= 2) {
 			sharon.bomb.boom = true;
-		}
-		else if (mapwards) {
+		} else if (mapwards) {
 			sharon.map = true;
+		} else if (dicewards) {
+			diceWords.enabled = true;
+		} else if (buildwards) {
+			augButton.enabled = true;
+			augButton.image.enabled = true;
 		}
 	}
 }

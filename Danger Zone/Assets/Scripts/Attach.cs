@@ -34,7 +34,7 @@ public class Attach : MonoBehaviour {
 	}
 
 	IEnumerator pause(){
-		yield return new WaitForSecondsRealtime (2);
+		yield return new WaitForSecondsRealtime (1);
 		Vector3 spot = new Vector3(camGhost.transform.position.x, camGhost.transform.position.y, camGhost.transform.position.z);
 		this.StartCoroutine(fwoom.SmoothMove(spot, 0.02f));
 	}
