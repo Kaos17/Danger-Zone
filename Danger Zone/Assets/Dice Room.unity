@@ -3899,8 +3899,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloon: {fileID: 1682600362}
   engine: {fileID: 1077427926}
-  third: {fileID: 771661471}
-  fourth: {fileID: 1699232730}
+  gondola: {fileID: 1699232730}
+  tail: {fileID: 771661471}
   top1: {x: 151.62, y: -4, z: 11}
   top2: {x: 161.12, y: -4, z: 11}
   bottom: {x: 156.12, y: -4, z: -11.4}
@@ -3919,7 +3919,7 @@ GameObject:
   - component: {fileID: 771661473}
   - component: {fileID: 771661472}
   m_Layer: 0
-  m_Name: aug slot 3
+  m_Name: tail slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3937,7 +3937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1259951877}
-  label: third
+  label: tail
   bright: {fileID: 2100000, guid: dfad0b778d76e4c4eb0ee2377c0bd3ae, type: 2}
   dark: {fileID: 2100000, guid: 3026373903f894743a2d320c2f0f89fe, type: 2}
 --- !u!23 &771661473
@@ -9152,7 +9152,7 @@ GameObject:
   - component: {fileID: 1699232732}
   - component: {fileID: 1699232731}
   m_Layer: 0
-  m_Name: aug slot 4
+  m_Name: gondola slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9170,7 +9170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   source: {fileID: 1259951877}
-  label: fourth
+  label: gondola
   bright: {fileID: 2100000, guid: dfad0b778d76e4c4eb0ee2377c0bd3ae, type: 2}
   dark: {fileID: 2100000, guid: 3026373903f894743a2d320c2f0f89fe, type: 2}
 --- !u!23 &1699232732

@@ -7,8 +7,8 @@ TagManager:
   - dice
   - bloon
   - engine
-  - third
-  - fourth
+  - tail
+  - gondola
   layers:
   - Default
   - TransparentFX

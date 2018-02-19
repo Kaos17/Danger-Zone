@@ -1,18 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ContinueScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Boomer.cs">
     <Files>
-      <File FileName="Assets\Scripts\ScreenChanger.cs" Line="93" Column="62" />
-      <File FileName="Assets\Scripts\ShipMove.cs" Line="46" Column="1" />
-      <File FileName="Assets\Scripts\Tosser.cs" Line="41" Column="17" />
+      <File FileName="Assets\Scripts\ScreenChanger.cs" Line="98" Column="19" />
+      <File FileName="Assets\Scripts\ShipMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Tosser.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Extend.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Attach.cs" Line="17" Column="42" />
       <File FileName="Assets\Scripts\Insert.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Roller.cs" Line="54" Column="28" />
-      <File FileName="Assets\Scripts\Boomer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Roller.cs" Line="33" Column="65" />
+      <File FileName="Assets\Scripts\Boomer.cs" Line="23" Column="5" />
       <File FileName="Assets\Standard Assets\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ContinueScript.cs" Line="29" Column="25" />
-      <File FileName="Assets\Scripts\RollButton.cs" Line="21" Column="28" />
+      <File FileName="Assets\Scripts\BlimpSlots.cs" Line="23" Column="22" />
+      <File FileName="Assets\Scripts\ContinueScript.cs" Line="8" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

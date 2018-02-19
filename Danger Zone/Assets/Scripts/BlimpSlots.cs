@@ -6,8 +6,8 @@ public class BlimpSlots : MonoBehaviour {
 
 	public GameObject bloon;
 	public GameObject engine;
-	public GameObject third;
-	public GameObject fourth;
+	public GameObject gondola;
+	public GameObject tail;
 	public Vector3 top1;
 	public Vector3 top2;
 	public Vector3 bottom;
@@ -18,9 +18,9 @@ public class BlimpSlots : MonoBehaviour {
 	void Start () {
 		Instantiate (bloon, top1, Quaternion.identity);
 		Instantiate (bloon, top2, Quaternion.identity);
-		Instantiate (third, bottom, Quaternion.identity);
-		Instantiate (engine, left, Quaternion.identity);
-		Instantiate (fourth, right, Quaternion.identity);
+		Instantiate (gondola, bottom, Quaternion.identity);
+		Instantiate (tail, left, Quaternion.identity);
+		Instantiate (engine, right, Quaternion.identity);
 	}
 	
 	// Update is called once per frame

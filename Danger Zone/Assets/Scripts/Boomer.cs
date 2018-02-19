@@ -20,6 +20,7 @@ public class Boomer : MonoBehaviour {
 		/*if (fuse >= 2) {
 			bomb.boom = true;
 		}*/
+		//Debug.Log (fuse);
 	}
 
 	void OnTriggerEnter(Collider other){

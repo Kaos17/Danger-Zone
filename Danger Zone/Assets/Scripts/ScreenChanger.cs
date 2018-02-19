@@ -95,5 +95,6 @@ public class ScreenChanger : MonoBehaviour {
 			augButton.enabled = true;
 			augButton.image.enabled = true;
 		}
+		sharon.fuse = 0;
 	}
 }

@@ -10,6 +10,7 @@ public class Roller : MonoBehaviour {
 	public Rigidbody rb;
 	public GameObject die;
 	public Tosser hand;
+	public Boomer sharon;
 	float torque1;
 	float torque2;
 
@@ -29,7 +30,7 @@ public class Roller : MonoBehaviour {
 		rb.AddTorque(transform.right * torque2, ForceMode.VelocityChange);
 
 		hand = GameObject.Find ("nd4").GetComponent<Tosser> ();
-		
+		sharon = GameObject.Find ("Dice Box").GetComponent<Boomer> ();
 	}
 	
 	// Update is called once per frame
@@ -49,6 +50,7 @@ public class Roller : MonoBehaviour {
 
 	void OnMouseDown(){
 		if (hand.reserve > 0) {
+			sharon.fuse--;
 			hand.reserve--;
 			Instantiate (die, new Vector3 (Random.Range (-7f, 7f), -1.4f, -9f), Quaternion.identity);
 			Destroy (this.gameObject);
