@@ -11,6 +11,9 @@ public class Attach : MonoBehaviour {
 	public GameObject associated;
 	public GameObject camGhost;
 	public ScreenChanger fwoom;
+	public int explosive;
+	public int reserve;
+	public Tosser hand;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +33,8 @@ public class Attach : MonoBehaviour {
 		Instantiate (selectedAug, other.transform.position, Quaternion.identity);
 		Destroy (other);
 		selectedAug = fake;
+		hand.count += explosive;
+		hand.reserve += reserve;
 		StartCoroutine (pause());
 	}
 

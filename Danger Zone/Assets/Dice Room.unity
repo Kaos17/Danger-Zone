@@ -7324,6 +7324,9 @@ MonoBehaviour:
   associated: {fileID: 1502330492}
   camGhost: {fileID: 1304117047}
   fwoom: {fileID: 1845156509}
+  explosive: 2
+  reserve: -1
+  hand: {fileID: 1246640632}
 --- !u!1 &1291930533
 GameObject:
   m_ObjectHideFlags: 0

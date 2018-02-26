@@ -10,6 +10,8 @@ public class ShipMove : MonoBehaviour {
 	public ScreenChanger fwoom2;
 	Boomer sharon;
 	Vector3 dest;
+	float journeyTime = 20.0f;
+	float startTime;
 
 	// Use this for initialization
 	void Start () {
@@ -42,6 +44,7 @@ public class ShipMove : MonoBehaviour {
 	IEnumerator SmoothMove(Vector3 target, float delta)
      {
          // Will need to perform some of this process and yield until next frames
+		startTime = Time.time;
          float closeEnough = 0.2f;
          float distance = (ship.transform.position - target).magnitude;
  
@@ -55,7 +58,8 @@ public class ShipMove : MonoBehaviour {
              //Debug.Log("Executing Movement");
  
              // Move a bit then  wait until next  frame
-             ship.transform.position = Vector3.Slerp(ship.transform.position, target, delta);
+			float fracComplete = (Time.time - startTime) / journeyTime;
+             ship.transform.position = Vector3.Slerp(ship.transform.position, target, fracComplete);
              yield return wait;
  
              // Check if we should repeat
