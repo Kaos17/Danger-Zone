@@ -14,6 +14,7 @@ public class Tosser : MonoBehaviour {
 	public Button advance;
 	public bool toss = false;
 	GameObject[] dices;
+	public GameObject selectedAug;
 
 	// Use this for initialization
 	void Start () {

@@ -14,7 +14,7 @@ public class ScreenChanger : MonoBehaviour {
 	public bool dicewards;
 	public bool buildwards;
 	public Button diceButton;
-	public Button augButton;
+	public Button[] augButtons;
 	public Boomer sharon;
 	public Button diceDebug;
 	public Button mapDebug;
@@ -25,8 +25,8 @@ public class ScreenChanger : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		butt.onClick.AddListener (HandleClick);
-		augButton.enabled = false;
-		augButton.image.enabled = false;
+		//augButton.enabled = false;
+		//augButton.image.enabled = false;
 		diceButton.enabled = false;
 		diceButton.image.enabled = false;
 		diceButton.GetComponentInChildren<Text> ().enabled = false;
@@ -55,8 +55,10 @@ public class ScreenChanger : MonoBehaviour {
 	{
 		Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
-		augButton.enabled = false;
-		augButton.image.enabled = false;
+		foreach (Button augButton in augButtons) {
+			augButton.enabled = false;
+			augButton.image.enabled = false;
+		}
 		// Will need to perform some of this process and yield until next frames
 		startTime = Time.time;
 		float closeEnough = 0.2f;
@@ -96,8 +98,10 @@ public class ScreenChanger : MonoBehaviour {
 			diceButton.image.enabled = true;
 			diceButton.GetComponentInChildren<Text> ().enabled = true;
 		} else if (buildwards) {
-			augButton.enabled = true;
-			augButton.image.enabled = true;
+			foreach (Button augButton in augButtons) {
+				augButton.enabled = true;
+				augButton.image.enabled = true;
+			}
 		}
 		sharon.fuse = 0;
 	}
