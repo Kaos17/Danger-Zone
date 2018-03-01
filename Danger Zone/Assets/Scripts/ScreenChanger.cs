@@ -14,17 +14,19 @@ public class ScreenChanger : MonoBehaviour {
 	public bool dicewards;
 	public bool buildwards;
 	public Button diceButton;
-	public Button augButton;
+	public Button[] augButtons;
 	public Boomer sharon;
 	public Button diceDebug;
 	public Button mapDebug;
 	public Button buildDebug;
+	float journeyTime = 12.0f;
+	float startTime;
 
 	// Use this for initialization
 	void Start () {
 		butt.onClick.AddListener (HandleClick);
-		augButton.enabled = false;
-		augButton.image.enabled = false;
+		//augButton.enabled = false;
+		//augButton.image.enabled = false;
 		diceButton.enabled = false;
 		diceButton.image.enabled = false;
 		diceButton.GetComponentInChildren<Text> ().enabled = false;
@@ -53,9 +55,12 @@ public class ScreenChanger : MonoBehaviour {
 	{
 		Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
-		augButton.enabled = false;
-		augButton.image.enabled = false;
+		foreach (Button augButton in augButtons) {
+			augButton.enabled = false;
+			augButton.image.enabled = false;
+		}
 		// Will need to perform some of this process and yield until next frames
+		startTime = Time.time;
 		float closeEnough = 0.2f;
 		float distance = (cam.transform.position - target).magnitude;
 
@@ -69,7 +74,8 @@ public class ScreenChanger : MonoBehaviour {
 			//Debug.Log("Executing Movement");
 
 			// Move a bit then  wait until next  frame
-			cam.transform.position = Vector3.Slerp(cam.transform.position, target, delta);
+			float fracComplete = (Time.time - startTime) / journeyTime;
+			cam.transform.position = Vector3.Slerp(cam.transform.position, target, fracComplete);
 			yield return wait;
 
 			// Check if we should repeat
@@ -92,8 +98,10 @@ public class ScreenChanger : MonoBehaviour {
 			diceButton.image.enabled = true;
 			diceButton.GetComponentInChildren<Text> ().enabled = true;
 		} else if (buildwards) {
-			augButton.enabled = true;
-			augButton.image.enabled = true;
+			foreach (Button augButton in augButtons) {
+				augButton.enabled = true;
+				augButton.image.enabled = true;
+			}
 		}
 		sharon.fuse = 0;
 	}

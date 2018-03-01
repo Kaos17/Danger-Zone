@@ -8,6 +8,7 @@ public class Insert : MonoBehaviour {
 	public string label;
 	public Material bright;
 	public Material dark;
+	public Tosser hand;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +17,7 @@ public class Insert : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (source.selectedAug.CompareTag (label)) {
+		if (hand.selectedAug.CompareTag (label)) {
 			GetComponent<Renderer> ().material = bright;
 		} else {
 			GetComponent<Renderer> ().material = dark;
@@ -24,7 +25,7 @@ public class Insert : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		if (source.selectedAug.CompareTag (label)) {
+		if (hand.selectedAug.CompareTag (label)) {
 			source.proceed (this.gameObject);
 		}
 	}

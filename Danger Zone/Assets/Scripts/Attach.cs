@@ -5,16 +5,20 @@ using UnityEngine.UI;
 
 public class Attach : MonoBehaviour {
 
-	public GameObject selectedAug;
 	public GameObject fake;
 	public Button butt;
 	public GameObject associated;
 	public GameObject camGhost;
 	public ScreenChanger fwoom;
+	public int explosive;
+	public int reserve;
+	public Tosser hand;
 
 	// Use this for initialization
 	void Start () {
 		butt.onClick.AddListener (HandleClick);
+		butt.enabled = false;
+		butt.image.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -23,13 +27,17 @@ public class Attach : MonoBehaviour {
 	}
 
 	public void HandleClick(){
-		selectedAug = associated;
+		hand.selectedAug = associated;
+		butt.enabled = false;
+		butt.image.enabled = false;
 	}
 
 	public void proceed(GameObject other){
-		Instantiate (selectedAug, other.transform.position, Quaternion.identity);
+		Instantiate (hand.selectedAug, other.transform.position, Quaternion.identity);
 		Destroy (other);
-		selectedAug = fake;
+		hand.selectedAug = fake;
+		hand.count += explosive;
+		hand.reserve += reserve;
 		StartCoroutine (pause());
 	}
 
