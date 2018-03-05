@@ -2045,9 +2045,7 @@ MonoBehaviour:
   dicewards: 1
   buildwards: 0
   diceButton: {fileID: 936651960}
-  augButtons:
-  - {fileID: 1259951874}
-  - {fileID: 1216375437}
+  hand: {fileID: 1246640632}
   sharon: {fileID: 970368930}
   diceDebug: {fileID: 418929538}
   mapDebug: {fileID: 1845156510}
@@ -7105,9 +7103,7 @@ MonoBehaviour:
   dicewards: 0
   buildwards: 1
   diceButton: {fileID: 936651960}
-  augButtons:
-  - {fileID: 1259951874}
-  - {fileID: 1216375437}
+  hand: {fileID: 1246640632}
   sharon: {fileID: 970368930}
   diceDebug: {fileID: 418929538}
   mapDebug: {fileID: 1845156510}
@@ -7323,6 +7319,9 @@ MonoBehaviour:
   advance: {fileID: 1407697900}
   toss: 0
   selectedAug: {fileID: 171404755}
+  augButtons:
+  - {fileID: 1216375437}
+  - {fileID: 1259951874}
 --- !u!4 &1246640633
 Transform:
   m_ObjectHideFlags: 0
@@ -9933,9 +9932,7 @@ MonoBehaviour:
   dicewards: 0
   buildwards: 0
   diceButton: {fileID: 936651960}
-  augButtons:
-  - {fileID: 1259951874}
-  - {fileID: 1216375437}
+  hand: {fileID: 1246640632}
   sharon: {fileID: 970368930}
   diceDebug: {fileID: 418929538}
   mapDebug: {fileID: 1845156510}

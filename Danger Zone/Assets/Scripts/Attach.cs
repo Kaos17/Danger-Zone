@@ -28,8 +28,10 @@ public class Attach : MonoBehaviour {
 
 	public void HandleClick(){
 		hand.selectedAug = associated;
-		butt.enabled = false;
-		butt.image.enabled = false;
+		foreach (Button augButton in hand.augButtons) {
+			augButton.enabled = false;
+			augButton.image.enabled = false;
+		}
 	}
 
 	public void proceed(GameObject other){

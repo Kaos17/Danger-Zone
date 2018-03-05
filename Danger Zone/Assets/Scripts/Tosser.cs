@@ -15,6 +15,7 @@ public class Tosser : MonoBehaviour {
 	public bool toss = false;
 	GameObject[] dices;
 	public GameObject selectedAug;
+	public Button[] augButtons;
 
 	// Use this for initialization
 	void Start () {

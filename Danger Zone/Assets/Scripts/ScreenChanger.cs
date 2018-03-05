@@ -14,7 +14,7 @@ public class ScreenChanger : MonoBehaviour {
 	public bool dicewards;
 	public bool buildwards;
 	public Button diceButton;
-	public Button[] augButtons;
+	public Tosser hand;
 	public Boomer sharon;
 	public Button diceDebug;
 	public Button mapDebug;
@@ -55,7 +55,7 @@ public class ScreenChanger : MonoBehaviour {
 	{
 		Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
-		foreach (Button augButton in augButtons) {
+		foreach (Button augButton in hand.augButtons) {
 			augButton.enabled = false;
 			augButton.image.enabled = false;
 		}
@@ -98,7 +98,7 @@ public class ScreenChanger : MonoBehaviour {
 			diceButton.image.enabled = true;
 			diceButton.GetComponentInChildren<Text> ().enabled = true;
 		} else if (buildwards) {
-			foreach (Button augButton in augButtons) {
+			foreach (Button augButton in hand.augButtons) {
 				augButton.enabled = true;
 				augButton.image.enabled = true;
 			}

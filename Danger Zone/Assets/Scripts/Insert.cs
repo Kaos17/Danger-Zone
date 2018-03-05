@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Insert : MonoBehaviour {
 
@@ -26,6 +27,12 @@ public class Insert : MonoBehaviour {
 
 	void OnMouseDown(){
 		if (hand.selectedAug.CompareTag (label)) {
+			foreach (Button augButton in hand.augButtons) {
+				Attach skin = augButton.GetComponent<Attach> ();
+				if (skin.associated == hand.selectedAug) {
+					source = skin;
+				}
+			}
 			source.proceed (this.gameObject);
 		}
 	}
