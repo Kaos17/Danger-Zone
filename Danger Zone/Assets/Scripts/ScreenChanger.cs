@@ -98,10 +98,18 @@ public class ScreenChanger : MonoBehaviour {
 			diceButton.image.enabled = true;
 			diceButton.GetComponentInChildren<Text> ().enabled = true;
 		} else if (buildwards) {
+			int choice = Random.Range (0, hand.augButtons.Length);
 			foreach (Button augButton in hand.augButtons) {
+				augButton.transform.position = new Vector3 (1323, -7, 0);
 				augButton.enabled = true;
 				augButton.image.enabled = true;
 			}
+			hand.augButtons [choice].transform.position = new Vector3 (-163, 1000, 0);
+			int choices = Random.Range (0, hand.augButtons.Length);
+			while (choices == choice) {
+				choices = Random.Range (0, hand.augButtons.Length);
+			}
+			hand.augButtons [choices].transform.position = new Vector3 (161, -7, 0);
 		}
 		sharon.fuse = 0;
 	}

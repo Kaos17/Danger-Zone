@@ -9,6 +9,7 @@ TagManager:
   - engine
   - tail
   - gondola
+  - material
   layers:
   - Default
   - TransparentFX
