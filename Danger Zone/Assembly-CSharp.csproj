@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\Boomer.cs" />
      <Compile Include="Assets\Scripts\CamManager.cs" />
      <Compile Include="Assets\Scripts\ContinueScript.cs" />
+     <Compile Include="Assets\Scripts\Events.cs" />
      <Compile Include="Assets\Scripts\Extend.cs" />
      <Compile Include="Assets\Scripts\Insert.cs" />
      <Compile Include="Assets\Scripts\Restart.cs" />
