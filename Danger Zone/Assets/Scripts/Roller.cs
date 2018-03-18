@@ -49,9 +49,9 @@ public class Roller : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		if (hand.reserve > 0) {
+		if (hand.fuel > 0) {
 			sharon.fuse--;
-			hand.reserve--;
+			hand.fuel--;
 			Instantiate (die, new Vector3 (Random.Range (-7f, 7f), -1.4f, -9f), Quaternion.identity);
 			Destroy (this.gameObject);
 		}

@@ -7,6 +7,7 @@ public class Tosser : MonoBehaviour {
 	
 	public int count;
 	public int reserve;
+	public int fuel;
 	public GameObject die;
 	public GameObject camGhost;
 	public ScreenChanger fwoom;
@@ -37,6 +38,7 @@ public class Tosser : MonoBehaviour {
 			}
 			//StartCoroutine (pause());
 			rollGuide.enabled = true;
+			fuel = reserve;
 			advance.enabled = true;
 			advance.image.enabled = true;
 			advance.GetComponentInChildren<Text> ().enabled = true;
