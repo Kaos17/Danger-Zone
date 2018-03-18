@@ -109,6 +109,8 @@ public class Events : MonoBehaviour {
 		close.image.enabled = false;
 		close.GetComponentInChildren<Text> ().enabled = false;
 		box.enabled = false;
+        eventQueue[0][0] = "Fireball";
+        
 	}
 	
 	// Update is called once per frame
