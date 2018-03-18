@@ -34,7 +34,7 @@ public class Tosser : MonoBehaviour {
 				Destroy (die);
 			}
 			for(int i=0; i<count; i++){
-				Instantiate(die, new Vector3(Random.Range(-7f, 7f), -1.4f, -9f), Quaternion.identity);
+				Instantiate(die, new Vector3(Random.Range(-7f, 7f), -.5f, -10f), Quaternion.identity);
 			}
 			//StartCoroutine (pause());
 			rollGuide.enabled = true;

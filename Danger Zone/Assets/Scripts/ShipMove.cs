@@ -8,6 +8,8 @@ public class ShipMove : MonoBehaviour {
 	public GameObject node;
 	public ScreenChanger fwoom;
 	public ScreenChanger fwoom2;
+	public GameObject[] neighbors;
+	public Tosser hand;
 	Boomer sharon;
 	Vector3 dest;
 	float journeyTime = 20.0f;

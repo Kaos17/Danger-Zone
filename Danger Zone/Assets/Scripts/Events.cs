@@ -76,6 +76,39 @@ public class Events : MonoBehaviour {
 		type1 = choice1.GetComponent<Choice> ();
 		type2 = choice2.GetComponent<Choice> ();
 		type3 = choice3.GetComponent<Choice> ();
+		description.enabled = false;
+		title.enabled = false;
+		bubble1.enabled = false;
+		bubble1.image.enabled = false;
+		bubble1.GetComponentInChildren<Text> ().enabled = false;
+		bubble2.enabled = false;
+		bubble2.image.enabled = false;
+		bubble2.GetComponentInChildren<Text> ().enabled = false;
+		bubble3.enabled = false;
+		bubble3.image.enabled = false;
+		bubble3.GetComponentInChildren<Text> ().enabled = false;
+		choice1.enabled = false;
+		choice1.image.enabled = false;
+		choice1.GetComponentInChildren<Text> ().enabled = false;
+		choice2.enabled = false;
+		choice2.image.enabled = false;
+		choice2.GetComponentInChildren<Text> ().enabled = false;
+		choice3.enabled = false;
+		choice3.image.enabled = false;
+		choice3.GetComponentInChildren<Text> ().enabled = false;
+		next.enabled = false;
+		next.image.enabled = false;
+		next.GetComponentInChildren<Text> ().enabled = false;
+		before.enabled = false;
+		before.image.enabled = false;
+		before.GetComponentInChildren<Text> ().enabled = false;
+		after.enabled = false;
+		after.image.enabled = false;
+		after.GetComponentInChildren<Text> ().enabled = false;
+		close.enabled = false;
+		close.image.enabled = false;
+		close.GetComponentInChildren<Text> ().enabled = false;
+		box.enabled = false;
 	}
 	
 	// Update is called once per frame
