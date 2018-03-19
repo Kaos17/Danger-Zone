@@ -23,15 +23,17 @@ public class Dialogue : MonoBehaviour {
 	}
 
 	public void HandleClick(){
-		self.enabled = false;
-		self.image.enabled = false;
-		self.GetComponentInChildren<Text> ().enabled = false;
-		if (next || before) {
+		if (next) {
+			events.choose ();
+		} else if (before) {
 			events.choose ();
 		} else if (after) {
 			events.response ();
 		} else if (close) {
 			events.end ();
 		}
+		self.enabled = false;
+		self.image.enabled = false;
+		self.GetComponentInChildren<Text> ().enabled = false;
 	}
 }

@@ -10,6 +10,7 @@ TagManager:
   - tail
   - gondola
   - material
+  - altar
   layers:
   - Default
   - TransparentFX

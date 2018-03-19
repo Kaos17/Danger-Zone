@@ -54,10 +54,13 @@
      <Compile Include="Assets\Scripts\Attach.cs" />
      <Compile Include="Assets\Scripts\BlimpSlots.cs" />
      <Compile Include="Assets\Scripts\Boomer.cs" />
+     <Compile Include="Assets\Scripts\CamButton.cs" />
      <Compile Include="Assets\Scripts\CamManager.cs" />
      <Compile Include="Assets\Scripts\Choice.cs" />
      <Compile Include="Assets\Scripts\ContinueScript.cs" />
+     <Compile Include="Assets\Scripts\Counters.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\emergencyScript.cs" />
      <Compile Include="Assets\Scripts\Events.cs" />
      <Compile Include="Assets\Scripts\Extend.cs" />
      <Compile Include="Assets\Scripts\Insert.cs" />

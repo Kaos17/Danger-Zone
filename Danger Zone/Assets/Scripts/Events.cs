@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Events : MonoBehaviour {
 
-	public string[][] eventQueue = new string[10][];
+	public string[][] eventQueue = new string[11][];
 	public Text description;
 	public Text title;
 	public Button bubble1;
@@ -18,6 +18,7 @@ public class Events : MonoBehaviour {
 	public Button before;
 	public Button after;
 	public Button close;
+	public Button emergency;
 	public Image box;
 	int thing;
 	Choice type1;
@@ -64,6 +65,9 @@ public class Events : MonoBehaviour {
 		close.enabled = false;
 		close.image.enabled = false;
 		close.GetComponentInChildren<Text> ().enabled = false;
+		emergency.enabled = false;
+		emergency.image.enabled = false;
+		emergency.GetComponentInChildren<Text> ().enabled = false;
 		box.enabled = false;
         
         /*Event Input Guide
@@ -591,6 +595,7 @@ public class Events : MonoBehaviour {
 	}
 
 	public void happening(){
+		box.enabled = true;
 		thing = Random.Range (0, eventQueue.Length);
 		description.text = eventQueue [thing] [1];
 		description.enabled = true;
@@ -619,43 +624,43 @@ public class Events : MonoBehaviour {
 		choice1.GetComponentInChildren<Text> ().text = eventQueue [thing] [2];
 		switch (eventQueue [thing] [6]) {
 		case "explosive":
-			type1.explosive = true;
-			type1.reserve = false;
-			type1.other = false;
+			type2.explosive = true;
+			type2.reserve = false;
+			type2.other = false;
 			break;
 		case "reserve":
-			type1.explosive = false;
-			type1.reserve = true;
-			type1.other = false;
+			type2.explosive = false;
+			type2.reserve = true;
+			type2.other = false;
 			break;
 		default:
-			type1.explosive = false;
-			type1.reserve = false;
-			type1.other = true;
+			type2.explosive = false;
+			type2.reserve = false;
+			type2.other = true;
 			break;
 		}
 		choice2.GetComponentInChildren<Text> ().text = eventQueue [thing] [3];
 		switch (eventQueue [thing] [7]) {
 		case "explosive":
-			type1.explosive = true;
-			type1.reserve = false;
-			type1.other = false;
+			type3.explosive = true;
+			type3.reserve = false;
+			type3.other = false;
 			break;
 		case "reserve":
-			type1.explosive = false;
-			type1.reserve = true;
-			type1.other = false;
+			type3.explosive = false;
+			type3.reserve = true;
+			type3.other = false;
 			break;
 		default:
-			type1.explosive = false;
-			type1.reserve = false;
-			type1.other = true;
+			type3.explosive = false;
+			type3.reserve = false;
+			type3.other = true;
 			break;
 		}
 		choice3.GetComponentInChildren<Text> ().text = eventQueue [thing] [4];
-		next.enabled = true;
-		next.image.enabled = true;
-		next.GetComponentInChildren<Text> ().enabled = true;
+		emergency.enabled = true;
+		emergency.image.enabled = true;
+		emergency.GetComponentInChildren<Text> ().enabled = true;
 	}
 
 	public void choose(){

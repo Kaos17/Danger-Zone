@@ -40,7 +40,9 @@ public class Attach : MonoBehaviour {
 		hand.selectedAug = fake;
 		hand.count += explosive;
 		hand.reserve += reserve;
-		StartCoroutine (pause());
+		hand.unlocked = true;
+		hand.building = false;
+		//StartCoroutine (pause());
 	}
 
 	IEnumerator pause(){

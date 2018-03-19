@@ -8,23 +8,24 @@ public class Tosser : MonoBehaviour {
 	public int count;
 	public int reserve;
 	public int fuel;
+	public int altars = 13;
 	public GameObject die;
 	public GameObject camGhost;
 	public ScreenChanger fwoom;
 	public Text rollGuide;
-	public Button advance;
 	public bool toss = false;
 	GameObject[] dices;
 	public GameObject selectedAug;
 	public Button[] augButtons;
 	public GameObject[] moveOptions;
+	public bool unlocked = true;
+	public bool building = false;
+	public Image winScreen;
 
 	// Use this for initialization
 	void Start () {
 		rollGuide.enabled = false;
-		advance.enabled = false;
-		advance.image.enabled = false;
-		advance.GetComponentInChildren<Text> ().enabled = false;
+		winScreen.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -40,10 +41,12 @@ public class Tosser : MonoBehaviour {
 			//StartCoroutine (pause());
 			rollGuide.enabled = true;
 			fuel = reserve;
-			advance.enabled = true;
-			advance.image.enabled = true;
-			advance.GetComponentInChildren<Text> ().enabled = true;
 			toss = false;
+			building = true;
+		}
+
+		if (altars <= 0) {
+			winScreen.enabled = true;
 		}
 	}
 
