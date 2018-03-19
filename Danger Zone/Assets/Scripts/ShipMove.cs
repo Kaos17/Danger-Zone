@@ -20,6 +20,7 @@ public class ShipMove : MonoBehaviour {
 		fwoom = GameObject.Find ("toDice").GetComponent<ScreenChanger> ();
 		fwoom2 = GameObject.Find ("toBuild").GetComponent<ScreenChanger> ();
 		sharon = GameObject.Find ("Dice Box").GetComponent<Boomer> ();
+		hand = GameObject.Find ("nd4").GetComponent<Tosser> ();
 	}
 	
 	// Update is called once per frame
@@ -32,15 +33,22 @@ public class ShipMove : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		//if (active) {
+		bool valid = false;
+		for (int x = 0; x < hand.moveOptions.Length; x++) {
+			if (node == hand.moveOptions [x]) {
+				valid = true;
+			}
+		}
+		if (valid) {
 			dest = node.transform.position;
 			dest.y += 0;
 			Cursor.visible = false;
 			Cursor.lockState = CursorLockMode.Locked;
 			sharon.map = false;
 			sharon.chief = true;
+			hand.moveOptions = neighbors;
 			this.StartCoroutine (SmoothMove (dest, 0.02f));
-		//}
+		}
 	}
 	
 	IEnumerator SmoothMove(Vector3 target, float delta)
