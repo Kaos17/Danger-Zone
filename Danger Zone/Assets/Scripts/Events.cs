@@ -112,72 +112,29 @@ public class Events : MonoBehaviour {
         
         //Fireball event
         eventQueue[0][0] = "Fireball";
-        eventQueue[0][1] = "There’s a cacophonous boom from the bowels \
-        of the ship, the shock wave of the explosion shaking your \
-        nerves and rattling your brain. The deck rapidly begins to heat \
-        up, and the tell tale green flames of magical fire begin to lap \
-        up between the floorboards. Goodness gracious, it appears that \
-        your ships is being consumed by a great ball of fire. You call \
-        general quarters, and your crew works to put out the flames \
-        before they consume your ship.";
+        eventQueue[0][1] = "There’s a cacophonous boom from the bowels of the ship, the shock wave of the explosion shaking your nerves and rattling your brain. The deck rapidly begins to heat up, and the tell tale green flames of magical fire begin to lap up between the floorboards. Goodness gracious, it appears that your ships is being consumed by a great ball of fire. You call general quarters, and your crew works to put out the flames before they consume your ship.";
         eventQueue[0][2] = "Fire Extinguisher";
         eventQueue[0][3] = "Fight Fire with Fire";
         eventQueue[0][4] = "Pray for survival";
         eventQueue[0][5] = "explosive";
         eventQueue[0][6] = "explosive";
         eventQueue[0][7] = "explosive";
-        eventQueue[0][8] = "You remember that there’s a fire \
-        extinguisher in case of a fire on the ship. You quickly run \
-        over and hit the glass with the nearby sledge hammer. You run \
-        over to the fire carrying the extinguisher carefully avoiding \
-        the glass, and point it at the fire. You pull the pin and \
-        squeeze the handle. The air from the room quickly rushes into \
-        the canister, bringing the fire and a redshirt with it. However\
-        the sudden decrease in pressure causes the engine room to groan\
-        dangerously. Hopefully it doesn’t collapse on itself.";
-        eventQueue[0][9] = "The phrase fight fire with more fire must \
-        have come from somewhere right? Taking these ancient words into\
-        account, you weave together a massive firestorm that begins to \
-        consume your own ship. As quickly as it begins, you draw your \
-        magic back into you, sucking in all of the flames in a massive \
-        squall. It looks like the fire is out for now, but now you have\
-        to deal with your ship being buffeted by the strong winds. ";
-        eventQueue[0][10] = "You pull out the candles that you have \
-        been saving for this very occasion and run into the fire to \
-        light them. When you withdraw to the deck, you set them down in\
-        a circle and begin the ritual to pray to the eldritch \
-        abominations that secretly control the world. After a while of\
-        muttering under your breath, you realize the rest of your crew\
-        has put out the flame. Unfortunately the ritual contacted the \
-        Elder Gods, and to express their displeasure, they begin to \
-        rain chocolate down on your dirigible. Hopefully the balloon \
-        can deal with the added weight.";
+        eventQueue[0][8] = "You remember that there’s a fire extinguisher in case of a fire on the ship. You quickly run over and hit the glass with the nearby sledge hammer. You run over to the fire carrying the extinguisher carefully avoiding  the glass, and point it at the fire. You pull the pin and squeeze the handle. The air from the room quickly rushes into the canister, bringing the fire and a redshirt with it. However the sudden decrease in pressure causes the engine room to groan dangerously. Hopefully it doesn’t collapse on itself.";
+        eventQueue[0][9] = "The phrase fight fire with more fire must have come from somewhere right? Taking these ancient words into account, you weave together a massive firestorm that begins to consume your own ship. As quickly as it begins, you draw your magic back into you, sucking in all of the flames in a massive squall. It looks like the fire is out for now, but now you have to deal with your ship being buffeted by the strong winds. ";
+        eventQueue[0][10] = "You pull out the candles that you have been saving for this very occasion and run into the fire to light them. When you withdraw to the deck, you set them down in a circle and begin the ritual to pray to the eldritch abominations that secretly control the world. After a while of muttering under your breath, you realize the rest of your crew has put out the flame. Unfortunately the ritual contacted the Elder Gods, and to express their displeasure, they begin to rain chocolate down on your dirigible. Hopefully the balloon can deal with the added weight.";
         eventQueue[0][11] = "Woah! We need an extinguisher, STAT!";
         eventQueue[0][12] = "Let us be reborn in flame!";
         eventQueue[0][13] = "Quickly, the fire extinguisher, captain!";
         eventQueue[0][14] = "Where’s the extinguisher?!";
         eventQueue[0][15] = "Do you know a spell that can stop this?";
-        eventQueue[0][16] = "Have you heard the phrase, ‘fight fire \
-        with fire?’";
-        eventQueue[0][17] = "WHAT’RE YOU TAKIN’ TIME FOR? GET THAT FIRE\
-        EXTINGUISHER!";
-        eventQueue[0][18] = "Lay down your arms… an extinguisher won’t\
-        kill magical flames. All we can do is pray our ship remains \
-        afloat as it is purged. I will not help you fight, this time.";
-        eventQueue[0][19] = "There’s an extinguisher on this ship, I \
-        swear I’ve seen one. We need to find it and fast, captain!";
-        eventQueue[0][20] = "There’s no time to talk! Get the fire \
-        extinguisher!";
-        eventQueue[0][21] = "Wait, you mean you haven’t studied water \
-        magic? Only fire? Well, I don’t know, can you just absorb the \
-        fire or redirect it somewhere else? It’s at least worth a \
-        shot…";
-        eventQueue[0][22] = "Well, and this may backfire horribly, you\
-        could try shooting flames at the flames and then reabsorbing \
-        them. Since they are magical flames, they must adhere to your \
-        command if you mix your own with them… at least I hypothesize.";
-        eventQueue[0][23] = "Where’d that fire even come from? Were we\
-        attacked?";
+        eventQueue[0][16] = "Have you heard the phrase, ‘fight fire with fire?’";
+        eventQueue[0][17] = "WHAT’RE YOU TAKIN’ TIME FOR? GET THAT FIRE EXTINGUISHER!";
+        eventQueue[0][18] = "Lay down your arms… an extinguisher won’t kill magical flames. All we can do is pray our ship remains afloat as it is purged. I will not help you fight, this time.";
+        eventQueue[0][19] = "There’s an extinguisher on this ship, I swear I’ve seen one. We need to find it and fast, captain!";
+        eventQueue[0][20] = "There’s no time to talk! Get the fire extinguisher!";
+        eventQueue[0][21] = "Wait, you mean you haven’t studied water magic? Only fire? Well, I don’t know, can you just absorb the fire or redirect it somewhere else? It’s at least worth a shot…";
+        eventQueue[0][22] = "Well, and this may backfire horribly, you could try shooting flames at the flames and then reabsorbing them. Since they are magical flames, they must adhere to your command if you mix your own with them… at least I hypothesize.";
+        eventQueue[0][23] = "Where’d that fire even come from? Were we attacked?";
         eventQueue[0][24] = "Okay, but why?";
         eventQueue[0][25] = "Yeah, why not! Why not sit around and hope we don’t bite it. Brilliant!";
         eventQueue[0][26] = "I was wrong… I didn’t believe the extinguisher would work, and yet here we are.";
